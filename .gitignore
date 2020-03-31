@@ -1,0 +1,8 @@
+/node_modules/
+node_modules/
+/dist/
+/libs/plagins/
+/.git/
+.git/
+/**/*.psd
+/**/Thumbs.db
