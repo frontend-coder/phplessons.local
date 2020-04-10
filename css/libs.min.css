@@ -5129,6 +5129,37 @@ body input:required:valid, body textarea:required:valid
   font-size: 2.0rem;
 }
 
+.while_wrapper
+{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.while_wrapper_item
+{
+  width: calc(50% - 20px);
+  margin: 10px;
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.table_td_right
+{
+  text-align: right;
+}
+
+.win_borer
+{
+  border: 1px solid red;
+  padding: 20px;
+}
+
 .block
 {
   background-color: #fff;

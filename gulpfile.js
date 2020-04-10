@@ -81,17 +81,17 @@ return gulp.src(jsFiles)
 .pipe(filesize()).on('error', gulpUtil.log);
 });
 
-gulp.task('serve', done => {
+function serve() {
 	browserSync.init({
-proxy:"http://phplessons.local/",
+proxy:"phplessons.local",
 		notify: false,
 		open:true,
     // online: false, // Work Offline Without Internet Connection
     // tunnel: true, tunnel: "projectname", // Demonstration page: http://projectname.localtunnel.me
 });
-	browserSync.watch('/', browserSync.reload);
-	done();
-});
+browserSync.watch('phplessons.local/', browserSync.reload);
+};
+gulp.task('serve', serve);
 
 gulp.task('code', done => {
 	return gulp.src(['**/*.php']);
