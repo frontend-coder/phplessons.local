@@ -2,7 +2,7 @@
 .header_fon {
   background: #000 url("../img/header-fon.jpg") no-repeat center center;
   background-size: cover;
-  min-height: 700px;
+  min-height: 100vh;
   position: relative;
 }
 .header_fon:before  {
@@ -60,13 +60,22 @@ position: relative;
   border:1px solid red;
   padding: 20px;
 }
+.border {
+  position: relative;
+}
+.ptext h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
 
-
-
-
-
-
-
-
+  color:#fff;
+  margin-bottom: 40px;
+}
+.ptext h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color:#fff;
+}
 
 

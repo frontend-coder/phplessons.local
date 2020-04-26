@@ -24,3 +24,27 @@ footer {
   height: 1000px;
   border:4px solid yellow;
 }
+.pimg1 {
+  background-image: url("../img/header-fon.jpg");
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.pimg1:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  background-image: linear-gradient(to bottom right, rgb(101, 115, 255), rgb(96, 105, 234), rgb(90, 95, 214), rgb(85, 86, 193), rgb(80, 76, 173), rgb(75, 66, 152), rgb(69, 56, 132), rgb(64, 46, 111), rgb(59, 36, 91), rgb(54, 27, 70), rgb(48, 17, 50), rgb(43, 7, 29));
+  opacity: .84;
+  content: '';
+}

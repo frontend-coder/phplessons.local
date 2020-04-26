@@ -1,0 +1,16 @@
+$i = 0;
+echo '<table>';
+while ( $i < count($arr_4[$i] ) {
+echo '<tr>';
+$j = 0;
+while ( $j < count($arr_4[$i][$j] ) {
+echo '<td>';
+echo ' | ' .  $arr_4[$i][$j] . ' |' ;
+echo '</td>';
+ $j++;
+}
+
+echo '</tr>';
+    $i++;
+    }
+echo '</table>';                                      //         -->
